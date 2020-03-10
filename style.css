@@ -1,15 +1,17 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
 img {
-  border: 0;
-} 
+    border: 0;
+    display: block;
+}
 body {
   background-color: #800000;
 }
 font {
 	font-size: small;
 	font-family: Verdana;
-	color: #FFFFFF;
-}
-a:link, a:visited, a:hover {
 	color: #FFFFFF;
 }
 #czcionka_kontakt {
@@ -21,4 +23,30 @@ a:link, a:visited, a:hover {
   font-size: 25px;
   font-family: Verdana;
   color: #FFFFFF;
+}
+
+.menu_tlo {
+	background-image: url('grafika/tlo_menu.png');
+}
+.menu_czcionka {
+	font-family: Verdana;
+	font-size: medium;
+}
+
+nav{
+    width:187px;
+}
+.inline{
+    float:left;
+}
+.center{
+    text-align: center
+}
+.center img{
+    margin-left: auto;
+    margin-right: auto;
+}
+#contact{
+    margin-left: 100px;
+    width: 800px;
 }
