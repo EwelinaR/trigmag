@@ -33,9 +33,12 @@ font {
 	font-family: Verdana;
 	font-size: medium;
 }
-
+header{
+    position:fixed;
+}
 nav{
     width:187px;
+    position:fixed;
 }
 .inline{
     float:left;
@@ -48,7 +51,8 @@ nav{
     margin-right: auto;
 }
 #content{
-    margin-left: 100px;
+    margin-left: 280px;
+    margin-top: 110px;
     width: 800px;
     color: #FFFFFF;
 }
@@ -57,7 +61,8 @@ nav{
     color: #FFFFFF;
 }
 
-.images img{
+.pop-up{
     margin: 15px;
     width: 135px;
+    cursor: zoom-in;
 }
