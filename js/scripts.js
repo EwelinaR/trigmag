@@ -1,9 +1,3 @@
-$(function(){
-  $("#top-bar").load("gorny_pasek.html");
-  $("#nav").load("menu.html");
-});
-
-
 $('#yourelement').ready(function() {
     $('.pop-up').click(function(){
         var src = $(this).attr('src');
